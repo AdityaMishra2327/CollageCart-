@@ -5,11 +5,11 @@ import profile from '../Images/userimg.png';
 
 const Header = () => {
   return (
-    <header className="bg-slate-900   shadow-md p-4 flex justify-between items-center">
+    <header className="bg-slate-900  shadow-md p-4 max-lg:h-[60px] flex justify-between items-center sticky top-0 z-[100] w-full">
       <div className="flex items-center">
         <img src={logo} alt="CollegeCart Logo" className="h-12 rounded-full" />
       </div>
-      <nav className="flex space-x-6">
+      <nav className="hidden lg:flex space-x-6 max-lg:px-8">
         <a href="#home" className="text-white font-bold ">Home</a>
         <a href="#categories" className="text-white  font-bold ">categories</a>
         <a href="#sell-Items" className="text-white font-bold ">Sell-Items</a>

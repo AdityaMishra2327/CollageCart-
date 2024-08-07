@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
     return (
-        <div id="testimonials" className="py-12 bg-white text-center h-screen " > 
+        <div id="testimonials" className="py-12 bg-white text-center h-max" > 
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl font-bold mb-5 text-gray-800">What Students Say</h2>
                 <div className="testimonial-content flex flex-wrap justify-around text-left">

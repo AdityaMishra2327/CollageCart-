@@ -4,8 +4,8 @@ import book from '../Images/Books.jpeg';
 
 const BrowseCat = () => {
     return (
-        <div id="browse" className="py-5  h-screen">
-            <h1 className="text-center py-5 text-2xl font-bold">Browse Categories</h1>
+        <div id="browse" className="py-5  h-max">
+            <h1 className="text-center py-5 text-3xl font-bold">Browse Categories</h1>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center px-5 py-5">
                 <div className=" w-64 mx-auto">
 
