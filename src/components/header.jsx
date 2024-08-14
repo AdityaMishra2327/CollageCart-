@@ -11,10 +11,10 @@ const Header = () => {
       </div>
       <nav className="hidden lg:flex space-x-6 max-lg:px-8">
         <a href="#home" className="text-white font-bold ">Home</a>
-        <a href="#categories" className="text-white  font-bold ">categories</a>
-        <a href="#sell-Items" className="text-white font-bold ">Sell-Items</a>
-        <a href="#Aboutus" className="text-white  font-bold ">About Us</a>
-        <a href="#contact" className="text-white  font-bold ">Contact Us</a>
+        <a href="#browse" className="text-white  font-bold ">categories</a>
+        <a href="#sellsection" className="text-white font-bold ">Sell-Items</a>
+        <a href="#testimonical" className="text-white  font-bold ">About Us</a>
+        <a href="#footer" className="text-white  font-bold ">Contact Us</a>
       </nav>
       <div className="flex items-center space-x-3">
         <img

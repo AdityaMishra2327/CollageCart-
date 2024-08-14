@@ -6,26 +6,20 @@ const Footer = () => {
       <div className="container mx-auto max-w-5xl">
         <div className="footer-columns flex flex-wrap justify-between">
           <div className="footer-column flex-1 min-w-[250px] p-5">
-            <h3 className="mb-4 text-xl font-bold text-slate-100">About CollegeCart</h3>
-            <p className="text-base mb-3">
-              CollegeCart is your go-to marketplace for buying and selling items within your college community. Our mission is to make campus life easier and more affordable for students everywhere.
-            </p>
-          </div>
-          <div className="footer-column flex-1 min-w-[250px] p-5">
             <h3 className="mb-4 text-xl">Quick Links</h3>
             <ul className="list-none">
               <li className="mb-2">
-                <a href="#home" className="text-white no-underline text-base hover:underline">
+                <a href="#header" className="text-white no-underline text-base hover:underline">
                   Home
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#about" className="text-white no-underline text-base hover:underline">
+                <a href="#testimonical" className="text-white no-underline text-base hover:underline">
                   About Us
                 </a>
               </li>
               <li className="mb-2">
-                <a href="#sell" className="text-white no-underline text-base hover:underline">
+                <a href="#sellsection" className="text-white no-underline text-base hover:underline">
                   Sell
                 </a>
               </li>
